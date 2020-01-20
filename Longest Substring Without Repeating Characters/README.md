@@ -1,8 +1,7 @@
-res:最终结果
-left：指向当前区间[front,rear]左端前一个，即front-1
-currentLen：当前区间长度
+res:最终结果  
+left：指向当前区间[front,rear]左端前一个，即front-1  
+currentLen：当前区间长度  
 map：hashmap<char,int>,记录每个字符最后出现的位置。
-
 
 扫描字符串s，遇到第i个字符ch，有下面几种情况
 1. 字符ch不在hashmap中，即未出现过，currentLen++
